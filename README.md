@@ -1,6 +1,4 @@
-# GravOpt Adaptive Engine – HybridAdamGrav Optimizer
-
-**Intelligent AI optimizer for low-power edge and mobile devices**
+# GravOpt Adaptive Engineces**
 *By Kretski (2025)*
 📩 For licensing and commercial use: **[kretski1@gmail.com](mailto:kretski1@gmail.com)**
 
