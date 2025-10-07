@@ -1,4 +1,4 @@
-# GravOpt Adaptive Engineces**
+-# GravOpt Adaptive Engineces**
 *By Kretski (2025)*
 📩 For licensing and commercial use: **[kretski1@gmail.com](mailto:kretski1@gmail.com)**
 
@@ -57,7 +57,7 @@
 
 ##
 
-Here’s an English version of the table — ready for posting on LinkedIn or GitHub. It summarizes where **HybridAdamGrav** provides the most advantage, including **defense and tactical drone systems**, while emphasizing energy efficiency, safety, and ethics.
+
 
 | Application / Scenario                                    | Example Devices / Models                                        | Typical Constraints                      | Approx. Energy Savings (vs. SGD) | Expected Accuracy Impact | Why HybridAdamGrav Fits                                           | Notes / Ethics & Safety                                                                                |
 | --------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------------- | -------------------------------- | ------------------------ | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
