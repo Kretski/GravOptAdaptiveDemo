@@ -12,9 +12,7 @@
 * **Universal compatibility:**
   Works for regression and classification. Tested on:
 
-  * Synthetic functions (x² / x³)
-  * CIFAR-10 (image classification)
-  * Real-world datasets
+  
 
 * **No manual tuning required:**
   Uses only basic parameters: `lr`, `freeze_percentile=30`. Automatically adapts during training.
@@ -48,30 +46,12 @@
 
 ## 🔋 Performance Summary (CIFAR-10)
 
-| Optimizer          | Train Acc | Test Acc | Updates   | Energy Use              |
-| ------------------ | --------- | -------- | --------- | ----------------------- |
-| **SGD**            | 95.56%    | 73.12%   | 99.5B     | 100%                    |
-| **HybridAdamGrav** | 86.20%    | 69.45%   | 0.000112B | **≈30% (−70% savings)** |
-
----
-
-##
-
-
-
-| Application / Scenario                                    | Example Devices / Models                                        | Typical Constraints                      | Approx. Energy Savings (vs. SGD) | Expected Accuracy Impact | Why HybridAdamGrav Fits                                           | Notes / Ethics & Safety                                                                                |
-| --------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------------- | -------------------------------- | ------------------------ | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Edge AI (Smart Agriculture, Vision Nodes)**             | Raspberry Pi 4, Coral TPU, Jetson Nano                          | Limited CPU/GPU, battery, network        | ~50–80%                          | Slight (−1–5%)           | Enables long-term battery operation with minimal updates          | Excellent for offline inference; ensure data encryption for sensitive applications.                    |
-| **Autonomous Drones & Mobile Robots**                     | Jetson Xavier/Nano, STM32 + TinyML, onboard navigation modules  | Thermal limits, battery, weight          | ~60–85%                          | Usually <5–10%           | Reduces training cycles during flight; prevents overheating       | Ideal for onboard navigation/SLAM; safety simulation and validation required.                          |
-| **Mobile & On-Device AI**                                 | Smartphones, wearables, on-device speech/vision AI              | Battery limits, background throttling    | ~40–70%                          | Minor (−3–6%)            | Enables personalization directly on-device without cloud access   | Enhances privacy and latency; extends device lifespan.                                                 |
-| **IoT / Microcontrollers**                                | ESP32 + TinyML, RP2040, Raspberry Pi Zero                       | Extremely low memory and clock speed     | ~50–90%                          | Visible (−1–8%)          | Supports predictive models with rare updates                      | Requires model compression (pruning/quantization).                                                     |
-| **Biomedical / Wearable Devices**                         | On-device ECG/EEG/EMG models, health sensors                    | Safety regulations, battery, reliability | ~30–60%                          | Minimal (−1–5%)          | Energy-efficient on-device learning                               | Must comply with CE/FDA standards; risk mitigation required.                                           |
-| **Defense / Tactical Systems (Drones, ISR, Embedded AI)** | Tactical UAVs, embedded AI modules, edge reconnaissance systems | Operational resilience, data security    | ~50–80% (mission-dependent)      | −1–8%                    | Extends autonomy, reduces comm load, improves stealth energy-wise | ⚠️ Strict ethical and legal considerations; must ensure non-lethal, defensive, and compliant use only. |
-
+| -------------- |
+| **Edge AI (Smart Agriculture, Vision Nodes)**             | 
 ---
 
 💡 **Summary:**
-**HybridAdamGrav** delivers *SGD-like accuracy* with **up to 70–90% less energy consumption**, making it a strong candidate for **low-power AI**, **IoT**, and **mobile-edge intelligence**.
+**** delivers *SGD-like accuracy* with **up to 70–90% less energy consumption**, making it a strong candidate for **low-power AI**, **IoT**, and **mobile-edge intelligence**.
 Its adaptive “gravitational slowdown” mechanism prevents redundant updates and enables **sustainable, on-device learning** for both civilian and defense-grade applications — provided ethical and safety standards are respected.
 
 
@@ -80,7 +60,7 @@ Its adaptive “gravitational slowdown” mechanism prevents redundant updates a
 
  📈 Visualization
 
-*(See the infographic: “SGD vs HybridAdamGrav – Smart Optimization for Edge AI”)*
+*(See the infographic: “SGD vs  – Smart Optimization for Edge AI”)*
 
 ---
 
