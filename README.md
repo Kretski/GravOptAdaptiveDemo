@@ -2,7 +2,7 @@
 *By Kretski (2025)*
 📩 For licensing and commercial use: **[kretski1@gmail.com](mailto:kretski1@gmail.com)**
 
----
+Patend penting
 
 ## ⚙️ Key Features
 
