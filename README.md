@@ -47,16 +47,7 @@
   No need to modify training loops.
 
 ---
-
-## 🔋 Performance Summary (CIFAR-10)
-
-| -------------- |
-| **Edge AI (Smart Agriculture, Vision Nodes)**             | 
----
-
-💡 **Summary:**
-**** delivers *SGD-like accuracy* with **up to 70–90% less energy consumption**, making it a strong candidate for **low-power AI**, **IoT**, and **mobile-edge intelligence**.
-Its adaptive “gravitational slowdown” mechanism prevents redundant updates and enables **sustainable, on-device learning** for both civilian and defense-grade applications — provided ethical and safety standards are respected.
+.
 
 
 
