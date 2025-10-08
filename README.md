@@ -1,9 +1,13 @@
 -# GravOpt Adaptive Engineces**
 *By Kretski (2025)*
+📩 For licensing and commercial use: **[kretski1@gmail.com](mailto:kretski1@gmail.com
+# GravOpt Adaptive Engine (Demo)
+*By Kretski (2025)*
+
+🔐 **Patent Pending** — This adaptive parameter freezing method is under patent protection.  
 📩 For licensing and commercial use: **[kretski1@gmail.com](mailto:kretski1@gmail.com)**
 
-Patend penting
-
+---
 ## ⚙️ Key Features
 
 * **Automatic threshold:**
