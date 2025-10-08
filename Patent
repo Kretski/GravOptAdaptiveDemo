@@ -1,0 +1,27 @@
+# Patent Notice
+
+The core algorithm implemented in this repository —  
+**"Adaptive Fine-Grain Parameter Freezing Based on Gradient Statistics for Energy-Efficient Neural Network Training"** —  
+is the subject of a pending patent application.
+
+## 🔒 Protected Elements
+The following technical innovations are protected:
+- Dynamic freezing threshold calculated as a percentile of the median absolute gradient
+- Per-parameter activity state (`h`) enabling fine-grain freeze/unfreeze control
+- Tanh-based adaptive unfreezing mechanism responsive to gradient magnitude
+- Warm-up phase with no freezing to ensure training stability
+- Energy-efficient update skipping based on activity state
+
+## ⚠️ Usage Rights
+- ✅ **Allowed**: Academic research, personal experimentation, non-commercial evaluation
+- ❌ **Prohibited**: Commercial deployment, product integration, redistribution in commercial products
+
+## 💼 Commercial Licensing
+This demo is provided for evaluation purposes only.  
+**Any commercial use requires a formal license agreement.**
+
+📧 Contact for licensing: **kretski1@gmail.com**  
+🌐 GitHub: https://github.com/Kretski/GravOptAdaptiveDemo
+
+---
+*© 2025 Kretski. All rights reserved. Patent Pending.*
